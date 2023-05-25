@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Aldrii. Studio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><a href="/index.html" class="titlee">Aldrii<span style="color: white;">. Studio</span></a></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">Inicio</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Proyectos</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Conócenos</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                            <li><a href="/politica_de_privacidad.html" onclick="seleccionar(this)">Política</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenido</p>
+                <h2>somos <span style="font-size: 75px;">Aldrii</span>. Studio</h2>
+                <p class="descripcion">Construyamos tu web   juntos</p>
+                <a href="#portfolio">Últimos Proyectos</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">NUESTROS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <p> Trabajamos estrechamente contigo para comprender tus metas, tus valores de marca y tu público objetivo. Luego creamos un diseño web único y atractivo que refleje la identidad de tu empresa y ofrezca una experiencia de usuario excepcional.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación WEB</h4>
+                <hr>
+                <p>Nuestro equipo de expertos en desarrollo web utiliza las últimas tecnologías y mejores prácticas para construir un sitio web funcional y de alto rendimiento. Nos aseguramos de que tu sitio sea compatible con diferentes dispositivos y navegadores.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Posicionamiento SEO</h4>
+                <hr>
+                <p>Para asegurarnos de que tu sitio web sea fácilmente encontrado por tus clientes potenciales, implementamos técnicas de optimización para motores de búsqueda. Esto incluye la optimización de palabras clave relevantes, la configuración de metaetiquetas adecuadas.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Mantenimiento de Sitios</h4>
+                <hr>
+                <p>El mundo digital evoluciona constantemente, por lo que ofrecemos servicios de mantenimiento y actualizaciones continuas para garantizar que tu sitio web esté siempre actualizado y funcionando sin problemas.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseño Gráfico</h4>
+                <hr>
+                <p>En nuestra consultora, entendemos la importancia de una identidad visual sólida y atractiva para el éxito en línea de tu negocio. Nuestro experimentado equipo de diseñadores gráficos está listo para crear una imagen de marca única y memorable para tu sitio web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Marketing-Brand Digital</h4>
+                <hr>
+                <p>Nuestra consultora de páginas web en España está comprometida con el éxito de su negocio en el entorno digital. Ofrecemos servicios integrales de marketing y branding digital diseñados para potenciar su presencia en línea y ayudarlo a alcanzar sus objetivos comerciales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION BENEFICIOS-->
+    <div class="contenedor-skills" id="skills">
+        <h3>QUE OBTENDRAS TRABAJANDO CON NOSOTROS </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Visibilidad Global</p>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Fortaleceras tu imagen de marca</p>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Optimización del motor de búsqueda (SEO)</p>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>mejoraras tu comunicación con los clientes</p>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">últimos Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION EQUIPO -->
+    <section id="sobremi">
+        <div class="contenedor-foto">   
+            <img src="img/foto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Conóce a nuestro equipo</p>
+            <h2>Hola, Soy <span>Francisco Moreno</span> </h2>
+            <h3>Desarrollador - Ceo</h3>
+            <p>Especializado en diseño y desarrollo de paginas web con conocimientos en: Diseño grafico y Marketing Digital.</p>
+            <p>Como CEO mi objetivo principal es que  establezcas una presencia en línea efectiva y atractiva que te permita conectarte con tus potenciales clientes y lograr tus objetivos de negocio. </p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">   
+            <img src="img/foto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <h2>Hola, Soy <span>Alvaro Moreno</span> </h2>
+            <h3>Desarrollador </h3>
+            <p>Especializado en desarrollo de paginas web con conocimientos en: Ciencias de la Comunicación, desarrollo Web y Análisis de datos.</p>
+            <p>Soy un desarrollador web con experiencia en la creación de sitios web dinámicos y funcionales. Mi pasión por la tecnología y el diseño me ha llevado a dedicarme a esta emocionante profesión.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Pide tu presupuesto sin compromiso</h3>
+        <div class="contenedor-form">
+            <form action="" method="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Dano detalles de tu proyecto..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Pedir Presupuesto" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="/politica_de_privacidad.html"><li style="font-size: 15px;" class="politica_de_privacidad">Política de Privacidad</li></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
